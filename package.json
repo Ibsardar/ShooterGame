@@ -1,5 +1,5 @@
 {
-  "name": "ShooterGame",
+  "name": "shootergame",
   "version": "1.0.0",
   "description": "ShooterGame",
   "main": "index.js",
@@ -11,10 +11,15 @@
     "url": "git+https://github.com/Ibsardar/ShooterGame.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ibrahim Sardar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ibsardar/ShooterGame/issues"
   },
-  "homepage": "https://github.com/Ibsardar/ShooterGame#readme"
+  "homepage": "https://github.com/Ibsardar/ShooterGame#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {}
 }
