@@ -1,2 +1,2 @@
 
-Copyright (C) 2020 Ibsardar
+Copyright (C) 2020 Ibrahim Sardar (Ibsardar)

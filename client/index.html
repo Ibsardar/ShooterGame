@@ -1,0 +1,22 @@
+<!-- imports -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.slim.js"></script>
+
+<!-- site -->
+Hello Planet Earth.
+
+<!-- code -->
+<script>
+
+    var socket = io();
+
+    socket.emit('greet', {
+        message: 'Hello Planet Earth.',
+        mood: 'angery'
+    })
+
+    socket.on('respond', (data) => {
+        console.log("Pluto isn't a planet!?");
+        console.log("Don't feel so " + data.mood + " now, huh?");
+    });
+
+</script>
